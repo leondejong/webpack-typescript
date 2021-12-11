@@ -1,0 +1,7 @@
+$graphics-directory: '../graphics/';
+$scanlines: $graphics-directory + 'scanlines.png';
+
+%background {
+  background-image: url($scanlines);
+  background-size: 8px 8px;
+}

@@ -1,0 +1,27 @@
+$font-antialias: true;
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  /* stylelint-disable declaration-colon-newline-after, value-list-comma-newline-after */
+  src: local('Open Sans Regular'), local('OpenSans-Regular'),
+    url('../fonts/OpenSans/OpenSans-Regular.ttf') format('ttf');
+  /* stylelint-enable declaration-colon-newline-after, value-list-comma-newline-after */
+}
+
+%antialias {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+%font-base {
+  @if $font-antialias {
+    @extend %antialias;
+  }
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3;
+}
