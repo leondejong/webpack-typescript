@@ -11,6 +11,8 @@ Build Prod: `yarn prod`
 Lint Code: `yarn lint-code`  
 Lint Style: `yarn lint-style`  
 
+Test: `yarn test`  
+
 ## Recommended Editor Extensions
 
 TypeScript  

@@ -1,10 +1,14 @@
-const path = require('path')
+import { fileURLToPath } from 'url'
+import path, { dirname } from 'path'
 
-module.exports = {
+const file = fileURLToPath(import.meta.url)
+const directory = dirname(file)
+
+export default {
   entry: './src/ts/index.ts',
   output: {
     filename: 'index.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(directory, 'dist')
   },
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx']
@@ -31,7 +35,7 @@ module.exports = {
   },
   devServer: {
     static: {
-      directory: path.join(__dirname, 'dist')
+      directory: path.join(directory, 'dist')
     },
     port: 8080,
     compress: true
