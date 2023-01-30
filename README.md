@@ -3,7 +3,7 @@
 Install: `yarn`  
 Start: `yarn start`  
 
-Visit: `http://localhost:8080/`  
+Visit: `http://localhost:8080`  
 
 Build Dev: `yarn dev`  
 Build Prod: `yarn prod`  
