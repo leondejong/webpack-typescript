@@ -1,7 +1,7 @@
-require('../scss/index.scss')
+// Example Project
 
-import Message from './lib/message'
+require("../scss/index.scss");
 
-const message = new Message('Hello World!')
+import main from "./example/main";
 
-message.publish('.content')
+window.onload = main;

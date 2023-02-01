@@ -1,4 +1,13 @@
-@import 'styles/fonts';
-@import 'styles/colors';
-@import 'styles/graphics';
-@import 'styles/content';
+body {
+  margin: 0;
+  background: rgba(31 39 47 / 100%);
+}
+
+#canvas {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 768px;
+  height: 576px;
+  transform: translate(-50%, -50%);
+}
