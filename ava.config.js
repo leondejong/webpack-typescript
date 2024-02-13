@@ -1,7 +1,7 @@
 export default {
   extensions: {
     js: true,
-    ts: 'module'
+    ts: "module",
   },
-  nodeArguments: ['--loader=ts-node/esm']
-}
+  nodeArguments: ["--import=tsimp"],
+};

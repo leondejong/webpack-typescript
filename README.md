@@ -20,3 +20,7 @@ Sass
 Prettier  
 ESLint  
 Stylelint  
+
+## Troubleshooting
+
+Install tsimp: `npm install tsimp --save-dev`  
