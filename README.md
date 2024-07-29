@@ -1,17 +1,18 @@
 # Webpack TypeScript Sass Starter Kit
 
 Install: `yarn`  
-Start: `yarn start`  
+Start: `yarn start`
 
-Visit: `http://localhost:8080`  
+Visit: `http://localhost:8080`
 
 Build Dev: `yarn dev`  
-Build Prod: `yarn prod`  
+Build Prod: `yarn prod`
 
-Lint Code: `yarn lint-code`  
-Lint Style: `yarn lint-style`  
+Lint: `yarn lint`  
+Lint Script: `yarn lint-script`  
+Lint Style: `yarn lint-style`
 
-Test: `yarn test`  
+Test: `yarn test`
 
 ## Recommended Editor Extensions
 
@@ -19,8 +20,8 @@ TypeScript
 Sass  
 Prettier  
 ESLint  
-Stylelint  
+Stylelint
 
 ## Troubleshooting
 
-Install tsimp: `npm install tsimp --save-dev`  
+Install tsimp: `npm install tsimp --save-dev`

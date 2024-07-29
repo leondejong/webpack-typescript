@@ -12,9 +12,9 @@ const left = "KeyS";
 const down = "KeyD";
 const right = "KeyF";
 
-const backgroundColor = "rgba(223, 231, 239, 1)";
-const contentColor = "rgba(95, 103, 111, 1)";
-const playerColor = "rgba(0, 127, 255, 1)";
+const backgroundColor = "rgba(31, 39, 47, 1)";
+const contentColor = "rgba(223, 255, 0, 1)";
+const playerColor = "rgba(255, 63, 0, 1)";
 
 const canvas = document.getElementById("canvas") as HTMLCanvasElement;
 const context = canvas.getContext("2d") as CanvasRenderingContext2D;
